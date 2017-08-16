@@ -1,55 +1,55 @@
-- designer: Ire Aderinkokun
+---
+- designer: Kevin Feyder
+  twitter: hello_lorem
+  school: OSU
+  categories:
+  - web
+  - ux-ui
+- categories:
+  - illustrator
+  - motion
+  designer: Ire Aderinkokun
+  school: WSU
   twitter: ireaderinokun
-  school: WSU
-  categories:
-    - illustrator
-    - motion
-
-- designer: Amy Johnston
-  twitter: amybeukenex
+- categories:
+  - illustrator
+  designer: Amy Johnston
   school: UO
-  categories:
-    - illustrator
-
-- designer: Julio Faerman
+  twitter: amybeukenex
+- categories:
+  - web
+  designer: Julio Faerman
+  school: OSU
   twitter: jmfaerman
-  school: OSU
-  categories:
-    - web
-
-- designer: Bud Parr
-  twitter: budparr
+- categories:
+  - lettering
+  designer: Bud Parr
   school: WOU
-  categories:
-    - lettering
-
-- designer: Leon Weber
-  twitter: leon_wbr
+  twitter: budparr
+- categories:
+  - ux-ui
+  designer: Leon Weber
   school: WSU
-  categories:
-    - ux-ui
-
-- designer: Ronan Berder
+  twitter: leon_wbr
+- categories:
+  - illustrator
+  - developer
+  - mobile
+  designer: Ronan Berder
+  school: OSU
   twitter: hunvreus
-  school: OSU
-  categories:
-    - illustrator
-    - developer
-    - mobile
-
-- designer: Mike Neumegen
-  twitter: mikeneumegen
+- categories:
+  - illustrator
+  - motion
+  - sound
+  - lettering
+  - print
+  designer: Mike Neumegen
   school: OU
-  categories:
-    - illustrator
-    - motion
-    - sound
-    - lettering
-    - print
-
-- designer: David Darnes
-  twitter: DavidDarnes
+  twitter: mikeneumegen
+- categories:
+  - illustrator
+  - sound
+  designer: David Darnes
   school: OSU
-  categories:
-    - illustrator
-    - sound
+  twitter: DavidDarnes
