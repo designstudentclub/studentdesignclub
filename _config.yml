@@ -4,7 +4,7 @@ email: Kevin Feyder
 tagline: 'Follow Designers like you' # A brief tagline for your site
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "hellolorem.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "studentdesign.club" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Sass settings
 sass:
