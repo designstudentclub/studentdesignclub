@@ -1,0 +1,31 @@
+---
+layout: base
+---
+<section class="flex_con">
+  <div id="left_column">
+    {% for post in paginator.posts %}
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ post.featured_image }}');"></figure>
+    {% endfor %}
+  </div>
+<div id="right_column">
+  <header>
+    {% include nav.html %}
+  </header>
+
+  {{content}}
+
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+    {% endif %}
+  </div>
+  {% endif %}
+  {% include footer.html %}
+</div>
+
+</Section>

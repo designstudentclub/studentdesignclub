@@ -1,0 +1,31 @@
+form
+  padding: 2.3em 0
+  font-size: 1.2em
+  font-family: $font-family
+  input[type="submit"]
+    display: block
+    margin: 0 auto
+    text-align: center
+    max-width: 10.625em
+    color: white
+    font-size: 1rem
+    padding: 1em .8em
+    background: $matcha
+    &:hover
+      background: darken($matcha, 10)
+      border-color: darken($matcha, 10)
+  input, textarea
+    display: block
+    width: 100%
+    outline: none
+    margin-bottom: 1.25em
+    border: 1px solid #eff2f3
+    background: #eff2f3
+    padding: 1.45em
+    color: #0a3039
+    transition: background .3s ease, border .3s ease
+    &:hover
+      background: darken(#eff2f3, 5)
+    &:active, &:focus
+      background: white
+      border-color: $matcha

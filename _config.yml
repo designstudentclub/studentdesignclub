@@ -1,0 +1,70 @@
+# Site settings
+title: 'Student Design Club'
+email: Kevin Feyder
+tagline: 'Follow Designers like you' # A brief tagline for your site
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "hellolorem.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: _sass
+  style: :compressed
+
+#jekyll infomation
+markdown:           kramdown
+highlighter:        rouge
+kramdown:
+  auto_ids:         true
+  footnote_nr:      1
+  entity_output:    as_char
+  toc_levels:       1..6
+  enable_coderay:   false
+
+relative_permalinks: false
+permalink: /:categories/:title/
+
+#pagination settings
+paginate: 6
+paginate_path: "/blog/page-:num"
+
+google-analytics:
+
+# Social Links
+#email:             email
+#googleplus:         kevinfeyder
+twitter:            hello_lorem
+#facebook:          username
+github:             halfsail
+#stackoverflow:
+#linkedin:          username
+#xing:              username
+instagram:          hello_lorem
+#lastfm:            username
+#tumblr:            username
+#pinterest:         username
+#foursquare:        username
+#steam:             username
+#dribbble:          username
+#youtube:            hellolorem
+#soundcloud:        username
+#weibo:             username
+#flickr:            username
+#codepen:           username
+#keybase:           username
+#xmpp:              username@server.com
+#hackernews:        username
+#behance:           username
+
+# Gems
+gems:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Exclude list
+include: [_pages]
+exclude: [README.md, Gemfile, Gemfile.lock, _site, src, vendor, CNAME, LICENSE, Rakefile, .sass-cache, .DS_Store]

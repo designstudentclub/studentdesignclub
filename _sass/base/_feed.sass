@@ -1,0 +1,152 @@
+html ::selection
+  background: lighten($matcha, 30)
+  font-size: 16px
+body
+  color: $slate
+  margin: 0
+  height: 100%
+  width: 100%
+  .wrap
+    height: 100vh
+    display: flex
+    margin: 0
+    padding: 0
+    // @media (max-width: 750px)
+    //   flex-direction: column
+    //   flex-direction: column-reverse
+    //   .content
+    //     flex: 3
+    //     margin-right: 6em
+    aside
+      order: 2
+      background: $pop
+      flex: 1
+      border-bottom: 1px solid darken($pop, $minus-sm)
+      transition: all 0.3s ease
+      overflow-y: auto
+    .content
+      order: 1
+      flex: 2
+      position: relative
+// vertical scrolling enable on each panel
+.content
+  overflow-y: scroll
+  padding: 2em
+  width: 100%
+  -webkit-animation: fadeIn .6s ease forwards, dropdown .5s ease forwards
+  animation: fadeIn .6s ease forwards, dropdown .5s ease forwards
+  @media (max-width: 750px)
+    padding-right: 5em
+  h2
+    margin-top: 0
+
+article.article
+  margin: 0 auto
+  max-width: 76ch
+
+  p a, a
+    color: $pop
+    font-weight: 600
+    &:hover
+      text-decoration: underline
+
+.content article ul
+  padding: 0
+  list-style: none
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  align-items: stretch
+  justify-content: space-between
+  .design-wrap
+    margin: 2em 2em 2em 0
+    text-align: center
+    filter: grayscale(100%)
+    transition: all 250ms ease-out
+    cursor: pointer
+    .rounded
+      border-radius: 50%
+      width: 128px
+      height: 128px
+      &::before
+        content: ' '
+        display: block
+        border-radius: 50%
+        height: 128px
+        width: 128px
+        background-image: url(../assets/images/default-avatar.jpg)
+        background-repeat: no-repeat
+        background-size: contain
+      &:hover
+        box-shadow: 0 0 0 transparentize($pop, .4)
+        animation: pulse .8s
+    a
+      color: $pop
+  .design-wrap:hover
+    filter: grayscale(0)
+
+@-webkit-keyframes pulse
+  0%
+    -webkit-box-shadow: 0 0 0 0 transparentize($pop, .4)
+  70%
+    -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0)
+  100%
+    -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0)
+
+
+@keyframes pulse
+  0%
+    -moz-box-shadow: 0 0 0 0 transparentize($pop, .4)
+    box-shadow: 0 0 0 0 transparentize($pop, .4)
+  70%
+    -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0)
+    box-shadow: 0 0 0 10px rgba(204,169,44, 0)
+  100%
+    -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0)
+    box-shadow: 0 0 0 0 rgba(204,169,44, 0)
+
+
+.icon
+  color: rgba(255, 255, 255, 1)
+#site-logo
+  height: 7em
+  width: auto
+  display: inline-block
+
+header
+  display: flex
+  align-items: center
+  justify-content: flex-start
+  svg
+    margin-right: 1.5em
+  h2
+    margin: 0
+svg
+  width: 2.3em
+  height: 2.3em
+  display: block
+
+@media (max-width: 750px)
+  .wrap
+    flex-direction: column
+    flex-direction: column-reverse
+    .content
+      flex: 3
+      padding: 1.5em
+      margin-right: 6em
+    aside.sidebar
+      max-height: 100px
+  .content article ul .design-wrap
+    margin: 0
+    .rounded
+      width: 96px
+      height: 96px
+      &::before
+        content: ' '
+        display: block
+        border-radius: 50%
+        height: 96px
+        width: 96px
+        background-image: url(../assets/images/default-avatar.jpg)
+        background-repeat: no-repeat
+        background-size: contain

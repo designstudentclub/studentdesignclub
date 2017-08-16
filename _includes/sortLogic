@@ -1,0 +1,16 @@
+{{page.title}}
+    {% for designer in site.data.designers %}
+    {% for category in designer.categories %}
+        {% if category == {{page.title}} %}
+            <li class="design-wrap">
+                    <a href="https://twitter.com/{{ designer.twitter }}">
+                <img class="rounded" src="https://avatars.io/twitter/{{designer.twitter}}/medium
+          " alt="">
+                <p>{{ designer.designer }}</p>
+              </a>
+              <h5>{{designer.twitter}} • {{designer.school}}</h5>
+            </li>
+            {% break %}
+        {% endif %}
+        {% endfor %}
+    {% endfor %}

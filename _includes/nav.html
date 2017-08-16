@@ -1,0 +1,9 @@
+<menu>
+<nav>
+  <a class="sliding-u-l-r-l" href="/" title="Everything">Everything</a>
+  {% for category in site.data.categories %}
+  <a href="{{ site.baseurl }}/{{category.category}}" title="{{ category.category }}">{{ category.category }}</a>
+{% endfor %}
+</nav>
+{% include footer.html %}
+</menu>

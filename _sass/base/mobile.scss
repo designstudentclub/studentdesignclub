@@ -1,0 +1,28 @@
+@media (min-width: 800px) {
+  body{
+    overflow: hidden;
+    margin: 0;
+    height: 100vh;
+    .flex_con{
+      flex-direction: row;
+      height: 100%;
+      align-items: stretch;
+      // #left_column, #right_column{
+      //   flex: 2;
+      // }
+      #left_column{
+        overflow: hidden;
+        height: 100vh;
+        .inner-con{
+          margin-top: 80vh;
+          padding: 0 2em;
+        }
+      }
+      #right_column{
+        overflow-y: auto;
+        height: 100vh;
+        padding: 2em 4em;
+      }
+    }
+  }
+}
