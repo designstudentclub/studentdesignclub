@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Nominate
-permalink: /Nominate
+permalink: "/Nominate"
 ---
 {% include header.html %}
 

@@ -2,7 +2,7 @@
 layout: page
 title: About
 featured_image: assets/images/lemon.jpg
-permalink: /about
+permalink: "/about"
 ---
 {% include header.html %}
 
