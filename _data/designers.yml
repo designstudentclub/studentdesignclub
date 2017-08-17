@@ -1,21 +1,16 @@
 ---
-- designer: Kevin Feyder
-  twitter: hello_lorem
-  school: OSU
-  categories:
+- categories:
   - web
   - ux-ui
+  designer: Kevin Feyder
+  school: OSU
+  twitter: hello_lorem
 - categories:
   - illustrator
   - motion
   designer: Ire Aderinkokun
   school: WSU
   twitter: ireaderinokun
-- categories:
-  - illustrator
-  designer: Amy Johnston
-  school: UO
-  twitter: amybeukenex
 - categories:
   - web
   designer: Julio Faerman
