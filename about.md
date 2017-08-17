@@ -21,7 +21,6 @@ If you want to help my list grow by finding other student designers. Who inspire
 #### Why Instagram
 
 In short it's the social medium platform I use the most. Instagram also focuses heavily on images which makes it great to see what the designers are up too.
-But with that said the system really does not care if your account name is for Instagram or Twitter as long as the account name is correct.
 
 #### How does filtering work
 
@@ -38,3 +37,5 @@ Of course. If someone has nominated you but you rather not be on the list. Just 
 #### Did people actually ask you these questions? Or are you, Like... Just coming up with these questions yourself?
 
 Uh...Ummm... No. Tons of people asked me these questions. Like all the time. I swear.
+
+<br/>
