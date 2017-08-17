@@ -68,7 +68,7 @@ article.article
   justify-content: space-between
   .design-wrap
     margin: 2em 2em 2em 0
-
+    padding-right: 2em
     text-align: center
     filter: grayscale(100%)
     transition: all 250ms ease-out
@@ -174,30 +174,30 @@ svg
         background-image: url(../assets/images/default-avatar.jpg)
         background-repeat: no-repeat
         background-size: contain
-#nav-trigger-btn
-  z-index: 2
-  cursor: pointer
-  &:before, &:after
-    display: block
-    height: 2px
-    background: white
+  #nav-trigger-btn
+    z-index: 2
+    cursor: pointer
+    &:before, &:after
+      display: block
+      height: 2px
+      background: white
+      width: 2em
+      margin-bottom: .4em
+      transition: .2s all linear
+    &:before, &:after
+      content: ""
+
+  #nav-trigger:checked ~ aside.sidebar
+    flex: 32
+
+  #nav-trigger:checked + #mobile-nav #nav-trigger-btn
+    height: 4em
     width: 2em
-    margin-bottom: .4em
-    transition: .2s all linear
-  &:before, &:after
-    content: ""
-
-#nav-trigger:checked ~ aside.sidebar
-  flex: 32
-
-#nav-trigger:checked + #mobile-nav #nav-trigger-btn
-  height: 4em
-  width: 2em
-  &:before
-    transform: rotate(-45deg)
-    position: absolute
-    top: 50%
-  &:after
-    transform: rotate(45deg)
-    position: absolute
-    top: 50%
+    &:before
+      transform: rotate(-45deg)
+      position: absolute
+      top: 50%
+    &:after
+      transform: rotate(45deg)
+      position: absolute
+      top: 50%
