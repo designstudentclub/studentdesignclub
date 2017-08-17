@@ -25,7 +25,7 @@
 <loc>http://localhost:4000/motion/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/Nominate</loc>
+<loc>http://localhost:4000/nominate</loc>
 </url>
 <url>
 <loc>http://localhost:4000/print/</loc>
