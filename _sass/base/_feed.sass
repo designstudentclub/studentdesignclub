@@ -11,6 +11,7 @@ body
     display: flex
     margin: 0
     padding: 0
+    // mobile navigation
     #mobile-nav
       display: none
       background: $pop
@@ -24,7 +25,6 @@ body
         h4
           color: white
           margin: 0
-
     aside
       order: 2
       background: $pop
@@ -41,23 +41,20 @@ body
   overflow-y: scroll
   padding: 2em
   width: 100%
-  -webkit-animation: fadeIn .6s ease forwards, dropdown .5s ease forwards
-  animation: fadeIn .6s ease forwards, dropdown .5s ease forwards
-  @media (max-width: 750px)
-    padding-right: 5em
   h2
+    // removes top margin on logo text
     margin-top: 0
-
 article.article
   margin: 0 auto
+  // limits character in paragraphs for better reading
   max-width: 76ch
-
   p a, a
     color: $pop
     font-weight: 600
     &:hover
       text-decoration: underline
 
+// style related to grid of people
 .content article ul
   padding: 0
   list-style: none
@@ -83,9 +80,6 @@ article.article
         border-radius: 50%
         height: 128px
         width: 128px
-        background-image: url(../assets/images/default-avatar.jpg)
-        background-repeat: no-repeat
-        background-size: contain
       &:hover
         box-shadow: 0 0 0 transparentize($pop, .4)
         animation: pulse .8s
@@ -93,7 +87,7 @@ article.article
       color: $pop
   .design-wrap:hover
     filter: grayscale(0)
-
+// animation for pulse effect on character avatars
 @-webkit-keyframes pulse
   0%
     -webkit-box-shadow: 0 0 0 0 transparentize($pop, .4)
@@ -101,8 +95,6 @@ article.article
     -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0)
   100%
     -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0)
-
-
 @keyframes pulse
   0%
     -moz-box-shadow: 0 0 0 0 transparentize($pop, .4)
@@ -113,31 +105,33 @@ article.article
   100%
     -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0)
     box-shadow: 0 0 0 0 rgba(204,169,44, 0)
-
-
 .icon
   color: rgba(255, 255, 255, 1)
-#site-logo
-  height: 7em
-  width: auto
-  display: inline-block
 
+// styles for header section and logo
 header a
   display: flex
   align-items: center
   justify-content: flex-start
-  svg
+  font-weight: 600
+  color: $pop
+  #site-logo
+    height: 7em
+    width: auto
+    display: inline-block
     margin-right: 1.5em
   h2
     margin: 0
+
 svg
   width: 2.3em
   height: 2.3em
   display: block
-
+// style related to mobile layout
 @media (max-width: 750px)
   body
     .wrap
+      // reverses column order to place sidebar on top
       flex-direction: column
       flex-direction: column-reverse
       #mobile-nav
@@ -156,6 +150,7 @@ svg
         header, .tag-line
           display: none
       aside.sidebar
+        // scale down header to hide under mobile navigation
         flex: .5
         order: 2
         footer
@@ -165,16 +160,8 @@ svg
     .rounded
       width: 96px
       height: 96px
-      &::before
-        content: ' '
-        display: block
-        border-radius: 50%
-        height: 96px
-        width: 96px
-        background-image: url(../assets/images/default-avatar.jpg)
-        background-repeat: no-repeat
-        background-size: contain
   #nav-trigger-btn
+    // styles related to hambuger menu
     z-index: 2
     cursor: pointer
     &:before, &:after
@@ -186,6 +173,10 @@ svg
       transition: .2s all linear
     &:before, &:after
       content: ""
+
+//logic behind checkbox navigation and animation
+// increase sidebar height on check and animated with transition all
+// height increase overided by more specific namespace in desktop style
 
   #nav-trigger:checked ~ aside.sidebar
     flex: 32

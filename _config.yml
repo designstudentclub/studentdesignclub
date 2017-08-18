@@ -4,7 +4,7 @@ email: Kevin Feyder
 tagline: 'Follow Designers like you' # A brief tagline for your site
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "studentdesign.club" # the base hostname & protocol for your site, e.g. http://example.com
+url: "studentdesign.club"
 
 # Sass settings
 sass:
@@ -29,7 +29,7 @@ permalink: /:categories/:title/
 paginate: 6
 paginate_path: "/blog/page-:num"
 
-google-analytics:
+google-analytics: UA-98828343-2
 
 # Social Links
 #email:             email
