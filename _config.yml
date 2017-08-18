@@ -1,10 +1,14 @@
 # Site settings
 title: 'Student Design Club'
-email: Kevin Feyder
 tagline: 'Follow Designers like you' # A brief tagline for your site
-
+description: Find inspiring student design who are doing work
+author: Kevin Feyder
 baseurl: "" # the subpath of your site, e.g. /blog
+logo: site-logo.png
 url: "studentdesign.club"
+
+twitter:
+  username: hello_lorem
 
 # Sass settings
 sass:
