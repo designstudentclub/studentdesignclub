@@ -1,26 +1,22 @@
 ---
-- categories:
-  - web
-  - ux-ui
-  designer: Kevin Feyder
+
+- designer: kevin Feyder
   school: OSU
   twitter: hello_lorem
-- categories:
-  - illustrator
-  - motion
-  - ux-ui
-  designer: Maddie Finklea
+  categories:
+    - web
+    - ux-ui
+    - illustrator
+    - motion
+- designer: Maddie Finklea
   school: OSU
   twitter: maddiefinklea
-- categories:
-  - illustrator
-  - print
-  designer: Michael
+  categories:
+    - illustrator
+    - print
+- designer: michael
   school: OSU
   twitter: the_spicy_pupperoni
-- categories:
-  - web
-  - ux-ui
-  designer: David Darnes
-  school: OSU
-  twitter: DavidDarnes
+  categories:
+    - web
+    - ux-ui
