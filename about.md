@@ -11,24 +11,24 @@ permalink: "/about"
 ### What is this whole thing about
 {{ site.title }} is a showcase of student designers doing some mind blowing design work. With the goal of helping other student design finding other designers to follow them on Instagram.
 
-I will admit that this website is not based on an oringal idea. Insert Steve Job quote here. But is heavily base on [@julesforrest](https://twitter.com/julesforrest) website [womenwho.design](https://womenwho.design/) after I heard of it on the [Design Detail](https://spec.fm/podcasts/design-details) podcast. It sounded like a cool idea, shedding light on notable women in the design field. I wanted to do something similar but instead I want to be inspired by other student designers who were in similar stages of there careers.
+I will admit that this website is not based on an original idea. Insert Steve Job quote here. But is heavily based on [@julesforrest](https://twitter.com/julesforrest) website [womenwho.design](https://womenwho.design/) after I heard of it on the [Design Detail](https://spec.fm/podcasts/design-details) podcast. It sounded like a cool idea, shedding light on notable women in the design field. I wanted to do something similar but instead, I want to be inspired by other student designers who were in similar stages of there careers.
 
-If you want to help my list grow by finding other student designers. Who inspire you, please nominate them [here]({{site.baseurl}}/nominate.html).
+If you want to help my list grow by finding other student designers. Who inspires you, please nominate them [here]({{site.baseurl}}/nominate.html).
 
 ### FAQ
 ---
 
 #### Why Instagram
 
-In short it's the social medium platform I use the most. Instagram also focuses heavily on images which makes it great to see what the designers are up too.
+In short, it's the social media platform I use the most. Instagram also focuses heavily on images which makes it great to see what the designers are up too.
 
 #### How does filtering work
 
-The filtering is not prefect I will admit it. Basically it is a manual process of viewing your work and guessing what category you will belong too. If you want to adjust what categories you fall into you can send us a [email]({{site.baseurl}}/contact.html) saying what category you like.
+The filtering is not perfect I will admit it. Basically it is a manual process of viewing your work and guessing what category you will belong to. If you want to adjust what categories you fall into you can send us an [email]({{site.baseurl}}/contact.html) saying what category you like.
 
 #### Can I suggest a new category
 
-Totally! Just send us a [email]({{site.baseurl}}/contact.html) suggesting the category.
+Totally! Just send us an [email]({{site.baseurl}}/contact.html) suggesting the category.
 
 #### Can you remove me from your list
 
