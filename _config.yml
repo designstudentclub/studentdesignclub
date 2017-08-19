@@ -6,6 +6,7 @@ author: Kevin Feyder
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "studentdesign.club"
 image: site-logo.png
+email: hello@studentdesign.club
 twitter:
   username: hello_lorem
 

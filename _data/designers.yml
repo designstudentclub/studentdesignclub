@@ -1,6 +1,6 @@
 ---
 
-- designer: kevin Feyder
+- designer: Kevin Feyder
   school: OSU
   twitter: hello_lorem
   categories:
@@ -14,9 +14,17 @@
   categories:
     - illustrator
     - print
-- designer: michael
+- designer: Michael
   school: OSU
   twitter: the_spicy_pupperoni
   categories:
     - web
     - ux-ui
+- designer: Noah Denker
+  school: OSU
+  twitter: noahdenker
+  categories:
+    - sound
+    - lettering
+    - mobile
+    - developer
