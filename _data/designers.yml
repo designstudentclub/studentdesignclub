@@ -1,13 +1,17 @@
 ---
+<<<<<<< HEAD
 
 - designer: Kevin Feyder
+=======
+- designer: kevin Feyder
+>>>>>>> origin/master
   school: OSU
   twitter: hello_lorem
   categories:
-    - web
-    - ux-ui
-    - illustrator
-    - motion
+  - web
+  - ux-ui
+  - illustrator
+  - motion
 - designer: Maddie Finklea
   school: OSU
   twitter: maddiefinklea
