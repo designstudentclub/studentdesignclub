@@ -1,22 +1,21 @@
 ---
-
 - designer: kevin Feyder
   school: OSU
   twitter: hello_lorem
   categories:
-    - web
-    - ux-ui
-    - illustrator
-    - motion
+  - web
+  - ux-ui
+  - illustrator
+  - motion
 - designer: Maddie Finklea
   school: OSU
   twitter: maddiefinklea
   categories:
-    - illustrator
-    - print
+  - illustrator
+  - print
 - designer: michael
   school: OSU
   twitter: the_spicy_pupperoni
   categories:
-    - web
-    - ux-ui
+  - web
+  - ux-ui
