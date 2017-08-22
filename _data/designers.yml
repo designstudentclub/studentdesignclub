@@ -19,12 +19,6 @@
   categories:
   - illustrator
   - print
-- designer: Michael
-  school: OSU
-  twitter: the_spicy_pupperoni
-  categories:
-  - web
-  - ux-ui
 - designer: Noah Denker
   school: OSU
   twitter: noahdenker
@@ -32,3 +26,14 @@
   - sound
   - lettering
   - mobile
+- designer: Michael Nolan
+  school: OSU
+  twitter: mnolan
+  categories:
+  - print
+- designer: Michael
+  school: OSU
+  twitter: the_spicy_pupperoni
+  categories:
+  - web
+  - ux-ui
