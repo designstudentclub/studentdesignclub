@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>{{site.title}} | {{ page.title }}</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+{% seo %}
+<meta property="og:image" content="{{site.baseurl}}/{{ site.image }}">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://studentdesign.club/site-logo.png">
+
+{% feed_meta %}
+<meta name="google-site-verification" content="j1oVrIclKc8F2kbqmua0Gl_YQhRvXTBJ-o7D8yHDmfc" />
+<style>
+{% capture include_to_scssify %}
+  {% include generator.scss %}
+{% endcapture %}
+{{ include_to_scssify | scssify }}
+</style>
+</head>
+  <body>
+{{ content }}
+</body>
+{% include scripts.html%}
+</html>
