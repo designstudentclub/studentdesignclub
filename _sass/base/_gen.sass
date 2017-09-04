@@ -46,9 +46,12 @@ body
   footer
     width: 100%
     margin: 0 2em
+    display: flex
+    flex-wrap: wrap
     p
-      flex: 2
-      align-self: center
+  
+      align-self: left
+      margin-right: auto
     .gen-social-icon
       height: 2em
       width: 2em
@@ -67,6 +70,12 @@ body
     header a svg 
       height: 6em
       width: 6em
+    footer
+      justify-content: center
+      p
+        text-align: center
+      .gen-social-icon
+        margin: 1em 1em
     .center
       max-width: 100%
       width: 100%

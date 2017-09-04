@@ -4,12 +4,10 @@
   {% for category in site.data.categories %}
   <a href="{{ site.baseurl }}/{{category.category}}" title="{{ category.category }}">{{ category.category }}</a>
 {% endfor %}
+<hr/>
+<a href="{{base.url}}/nominate.html" title="Nominate a desginer">Nominate</a>
+<a href="{{base.url}}/design-assignment.html" title="Design Assignment Generator">Design Assignment</a>
+<a href="{{base.url}}/about.html" title="about">About</a>
+<a href="{{ base.url}}/contact.html" title="contact us">Contact</a>
 </nav>
-<div class="bottom-fold">
-<ul>
-  <li><a href="{{base.url}}/nominate.html" title="Nominate a desginer">Nominate</a></li>
-  <li><a href="{{base.url}}/about.html" title="about">About</a></li>
-  <li><a href="{{ base.url}}/contact.html" title="contact us">Contact</a></li>
-</ul>
-</div>
 </menu>
