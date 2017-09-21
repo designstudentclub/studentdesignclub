@@ -160,35 +160,38 @@ svg
     .rounded
       width: 96px
       height: 96px
-#nav-trigger-btn
-  // styles related to hambuger menu
-  z-index: 2
-  cursor: pointer
-  &:before, &:after
-    display: block
-    height: 2px
-    background: white
-    width: 2em
-    margin-bottom: .4em
-    transition: .2s all linear
-  &:before, &:after
-    content: ""
+  #nav-trigger-btn
+    // styles related to hambuger menu
+    z-index: 2
+    cursor: pointer
+    &:before, &:after
+      display: block
+      height: 2px
+      background: white
+      width: 2em
+      margin-bottom: .4em
+      transition: .2s all linear
+    &:before, &:after
+      content: ""
 
-//logic behind checkbox navigation and animation
-// increase sidebar height on check and animated with transition all
-// height increase overided by more specific namespace in desktop style
+  //logic behind checkbox navigation and animation
+  // increase sidebar height on check and animated with transition all
+  // height increase overided by more specific namespace in desktop style
+
+  #nav-trigger:checked ~ aside.sidebar
+    flex: 32
+
+  #nav-trigger:checked + #mobile-nav #nav-trigger-btn
+    height: 4em
+    width: 2em
+    &:before
+      transform: rotate(-45deg)
+      position: absolute
+      top: 50%
+    &:after
+      transform: rotate(45deg)
+      position: absolute
+      top: 50%
 
 #nav-trigger:checked ~ aside.sidebar
-  flex: 32
-
-#nav-trigger:checked + #mobile-nav #nav-trigger-btn
-  height: 4em
-  width: 2em
-  &:before
-    transform: rotate(-45deg)
-    position: absolute
-    top: 50%
-  &:after
-    transform: rotate(45deg)
-    position: absolute
-    top: 50%
+  flex: 1
