@@ -1,5 +1,5 @@
 html ::selection
-  background: lighten($matcha, 30)
+  background: lighten($pop, 30)
   font-size: 16px
 body
   color: $slate
@@ -29,6 +29,8 @@ body
       order: 2
       background: $pop
       flex: 1
+      // prevents sidebar from growing to large on ultra wide
+      max-width: 450px
       border-bottom: 1px solid darken($pop, $minus-sm)
       transition: all 0.3s ease
       overflow-y: auto
@@ -53,58 +55,6 @@ article.article
     font-weight: 600
     &:hover
       text-decoration: underline
-
-// style related to grid of people
-// .content article ul
-//   padding: 0
-//   list-style: none
-//   width: 100%
-//   display: flex
-//   flex-wrap: wrap
-//   align-items: stretch
-//   justify-content: space-between
-//   .design-wrap
-//     margin: 2em 2em 2em 0
-//     padding-right: 2em
-//     text-align: center
-//     filter: grayscale(100%)
-//     transition: all 250ms ease-out
-//     cursor: pointer
-//     .rounded
-//       border-radius: 50%
-//       width: 128px
-//       height: 128px
-//       &::before
-//         content: ' '
-//         display: block
-//         border-radius: 50%
-//         height: 128px
-//         width: 128px
-//       &:hover
-//         box-shadow: 0 0 0 transparentize($pop, .4)
-//         animation: pulse .8s
-//     a
-//       color: $pop
-//   .design-wrap:hover
-//     filter: grayscale(0)
-//
-// @-webkit-keyframes pulse
-//   0%
-//     -webkit-box-shadow: 0 0 0 0 transparentize($pop, .4)
-//   70%
-//     -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0)
-//   100%
-//     -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0)
-// @keyframes pulse
-//   0%
-//     -moz-box-shadow: 0 0 0 0 transparentize($pop, .4)
-//     box-shadow: 0 0 0 0 transparentize($pop, .4)
-//   70%
-//     -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0)
-//     box-shadow: 0 0 0 10px rgba(204,169,44, 0)
-//   100%
-//     -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0)
-//     box-shadow: 0 0 0 0 rgba(204,169,44, 0)
 .icon
   color: rgba(255, 255, 255, 1)
 
